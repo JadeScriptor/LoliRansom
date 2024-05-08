@@ -16,7 +16,7 @@ for file in os.listdir():
     if os.path.isfile(file):
         files.append(file)
 
-password = 'anjaymabar'
+password = 'anjaymabar' # is password for key encrypt
 
 
 with open('thekey.key', 'rb') as thekey:
